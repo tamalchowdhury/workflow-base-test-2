@@ -31,6 +31,7 @@ import {
 // The setting for this workflow
 export const workflowSettings: WorkflowSettings = {
   id: "onExistingPasswordProvided",
+  name: "Drip Feed Migration Workflow",
   trigger: WorkflowTrigger.ExistingPasswordProvided,
   failurePolicy: {
     action: "stop",
